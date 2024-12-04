@@ -104,6 +104,8 @@ As atividades incluem:
   <strong>Figura 4:</strong> Comparação de Desempenho
 </p>
 
+### A pasta document contém o pdf explicativo onde se interpretam os resultados e se extraem os insights mais relevantes.
+
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
@@ -121,7 +123,6 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
-
 
 ## 🔧 Como executar o código
 ### 💼 Pré-requisitos
