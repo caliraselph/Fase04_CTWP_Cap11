@@ -9,7 +9,7 @@
 # 🌾 Projeto de Sistema de Irrigação Inteligente - FarmTech Solutions
 
 # Nome do projeto
-Fase 4 - Cap 1 - Automação e Inteligência na FarmTech Solutions
+Fase 4 - Cap 3 - Implementando algoritmos de Machine Learning com Scikit-learn
 
 ## Nome do grupo
 Grupo 44
@@ -27,16 +27,17 @@ Grupo 44
 
 
 ## 📜 Descrição
-Nesta fase do projeto FarmTech Solutions, o sistema de irrigação inteligente foi aprimorado para atingir um novo nível de eficiência e inteligência. O objetivo é monitorar as condições do solo em tempo real, prever a necessidade de irrigação e apresentar essas informações de forma clara e interativa. As principais melhorias incluem:
-- Scikit-learn: para criar um modelo preditivo que sugere ações de irrigação.
-- Streamlit: para desenvolver um dashboard interativo que mostra dados em tempo real.
-- Banco de dados: aprimoramento da estrutura para permitir o armazenamento histórico dos dados dos sensores.
-- Display LCD no Wokwi: para exibir as principais métricas em tempo real.
-- Serial Plotter: para monitorar variáveis através de gráficos dinâmicos.
-- Otimizações de memória: no código C/C++ do ESP32 para melhorar a eficiência do sistema.
+Desenvolvimento de um modelo de aprendizado de máquina capaz de classificar diferentes variedades de trigo com base em suas características físicas, automatizando um processo que, nas cooperativas agrícolas, é realizado manualmente. A data para analisar e um dataset que foi descarregado no link: <a href="https://archive.ics.uci.edu/dataset/236/seeds">https://archive.ics.uci.edu/dataset/236/seeds</a>
+
+As atividades incluem:
+- Aplicar a metodologia CRISP-DM para desenvolver um modelo de aprendizado de máquina que classifique variedades de grãos de trigo com base em suas características físicas.
+- Analisar e pré-processar os dados fornecidos.
+- Implementar e comparar diferentes algoritmos de classificação.
+- Otimizar os modelos para melhorar o desempenho.
+ 
 
 
-## 📸 Imagens do Projeto
+## 📸 Imagens da Análise da Informação
 ### Estrutura do Circuito 
 
 <p align="center">
