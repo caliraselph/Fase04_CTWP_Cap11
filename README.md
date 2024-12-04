@@ -38,44 +38,70 @@ As atividades incluem:
 
 
 ## 📸 Imagens da Análise da Informação
-### Estrutura do Circuito 
+### Exibir as primeiras linhas do dataset para revisão inicial 
 
 <p align="center">
-  <img src="assets/project4.png" alt="Estrutura do Circuito" border="0" width="50%" height="50%">
+  <img src="assets/1_analisis_describ.jpg" alt="Estrutura do Circuito" border="0" width="50%" height="50%">
 </p>
 
 <p align="center">
-  <strong>Figura 1:</strong> Estrutura do Circuito no Wokwi
+  <strong>Figura 1:</strong> Estatística Descritiva
 </p>
 
-### Simulação em Execução
+### Histograma dos atributos (Informação do dataset)
 
 <p align="center">
-  <img src="assets/simulation4.png" alt="Simulação em Execução" border="0" width="50%" height="50%">
-</p>
-
-<p align="center">
-  <strong>Figura 2:</strong> Simulação em Execução com Leitura dos Sensores
-</p>
-
-### Serial Plotter
-
-<p align="center">
-  <img src="assets/serialplotter4.png" alt="Serial Plotter" border="0" width="50%" height="50%">
+  <img src="assets/2_histograma.jpg" alt="Histograma dos Atributos" border="0" width="50%" height="50%">
 </p>
 
 <p align="center">
-  <strong>Figura 3:</strong> Monitoriamento de Variáveis com Serial Plotter
+  <strong>Figura 2:</strong> Histograma dos Atributos
 </p>
 
-### Bibliotecas do Projeto
+### Boxplots das Caraterísticas
 
 <p align="center">
-  <img src="assets/library4.png" alt="Bibliotecas do Projeto" border="0" width="50%" height="50%">
+  <img src="assets/3_Boxplot_caracteristicas.jpg" alt="Boxplots das Caraterísticas" border="0" width="50%" height="50%">
 </p>
 
 <p align="center">
-  <strong>Figura 4:</strong> Bibliotecas do Projeto no Wokwi
+  <strong>Figura 3:</strong> Boxplots das Caraterísticas
+</p>
+
+### Dispersão das variedades de semente pelas características
+
+<p align="center">
+  <img src="assets/4_Dispersao.jpg" alt="Boxplots das Caraterísticas" border="0" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <strong>Figura 4:</strong> Dispersão das variedades de semente pelas características
+</p>
+### Matriz de correlação pelas características
+<p align="center">
+  <img src="assets/6_MatrizCorrelacao.jpg" alt="Dispersão das variedades de semente pelas características" border="0" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <strong>Figura 4:</strong> Matriz de correlação pelas características
+</p>
+
+### Matriz de confusão
+<p align="center">
+  <img src="assets/4_MatrizConfusao.jpg" alt="Matriz de confusão" border="0" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <strong>Figura 4:</strong> Matriz de confusão
+</p>
+
+### Comparação de Desempenho
+<p align="center">
+  <img src="assets/5_ComparacaoDesempenho.jpg" alt="Comparação de Desempenho" border="0" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <strong>Figura 4:</strong> Comparação de Desempenho
 </p>
 
 ## 📁 Estrutura de pastas
@@ -101,37 +127,11 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ### 💼 Pré-requisitos
 Antes de iniciar, certifique-se de que você tem:
 
-1. Simulador Wokwi configurado.
-2. Python instalado, recomenda-se a versão 3.8 ou superior.
-3. As bibliotecas necessárias: 'streamlit', 'scikit-learn' e 'mysql-connector-python'.
-4. Banco de Dados MySQL configurado, localmente ou na nuvem, para armazenar os dados coletados.
+1. Python instalado, recomenda-se a versão 3.8 ou superior.
+2. As bibliotecas necessárias: 'numpy', 'pandas', 'matplotlib', 'seaborn', 'streamlit', 'scikit-learn' e 'mysql-connector-python'.
+   
 
 ### 🚀 Passo a Passo
-**1. Executar a Simulação no Wokwi**
-* Acesse o Wokwi.
-* Importe o projeto utilizando o link disponível no arquivo 'link_projeto_wokwi.txt' localizado no repositório.
-* Confira a conexão correta dos seguintes sensores:
-  - DHT22: mede a umidade e a temperatura.
-  - HC-SR04: mede a distância até um objeto, o que pode ser utilizado para monitorar o nível de um reservatório de água.
-  - LDR: mede a intensidade da luz ambiente.
-  - PIR: este sensor detecta movimento no ambiente, simulando um sistema de segurança.
-* Inicie a simulação clicando no botão "Start Simulation".
-  - O display LCD exibirá informações atualizadas sobre umidade e temperatura e status da irrigação. Se o valor de umidade estiver abaixo de um determinado limite (definido na variável 'IRRIGATION_THRESHOLD'), o status da irrigação é alterado para "SI" - Ativado. Caso contrário, o status permanece como "NA" - Desativado.
-  - O Serial Plotter utilizado para monitorar as variáveis em tempo real, como a umidade e os níveis de luz.
-
-**2. Executar o Dashboard com Streamlit**
-* Baixe ou clone o repositório do projeto, onde está o código do dashboard.
-* Abra o arquivo 'dashboard_streamlit.py' localizado na pasta 'src'.
-* Execute o código no seu ambiente Python.
-* O dashboard abrirá automaticamente no navegador ou exibirá um link para acesso.
-* Explore as seguintes funcionalidades do dashboard:
-  - Visualização de Dados em Tempo Real
-  - Previsões do Modelo Preditivo
-  - Insights de Desempenho
-
-**3. Configurar e Usar o Banco de Dados**
-* Configure o banco de dados SQL utilizando o script 'database_setup.sql' para criar as tabelas.
-* Execute o código Python para inserir e consultar os dados dos sensores em tempo real.
 
 ### 🎥 Vídeo Demonstrativo 
 O vídeo demonstrativo do projeto, está disponível no YouTube.
