@@ -6,13 +6,13 @@
 
 <br>
 
-# 🌾 Projeto de Sistema de Irrigação Inteligente - FarmTech Solutions
+# ATIVIDADE – Da Terra ao Código: Automatizando a Classificação de Grãos com Machine Learning
 
 # Nome do projeto
 Fase 4 - Cap 3 - Implementando algoritmos de Machine Learning com Scikit-learn
 
 ## Nome do grupo
-Grupo 44
+Grupo 66
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/">Ana Beatriz Duarte Domingues</a>
