@@ -105,6 +105,7 @@ As atividades incluem:
 </p>
 
 ### A pasta document contém o pdf explicativo onde se interpretam os resultados e se extraem os insights mais relevantes.
+### A pasta src contém o análise das informações no arquivo "analisis_dataset.ipynb".
 
 ## 📁 Estrutura de pastas
 
