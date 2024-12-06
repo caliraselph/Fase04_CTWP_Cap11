@@ -131,13 +131,6 @@ Antes de iniciar, certifique-se de que você tem:
 
 1. Python instalado, recomenda-se a versão 3.8 ou superior.
 2. As bibliotecas necessárias: 'numpy', 'pandas', 'matplotlib', 'seaborn', 'streamlit', 'scikit-learn' e 'mysql-connector-python'.
-   
-
-### 🚀 Passo a Passo
-
-### 🎥 Vídeo Demonstrativo 
-O vídeo demonstrativo do projeto, está disponível no YouTube.
-LINK
 
 ## 🗃 Histórico de lançamentos
 
